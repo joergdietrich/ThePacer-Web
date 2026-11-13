@@ -1,0 +1,34 @@
+title: The Pacer
+description: A running metronome that learns your stride and puts you on pace for every interval.
+url: https://thepacer.app
+lang: en
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+# Manual chapters, in reading order. The manual layout builds its contents and
+# its previous/next links from this list.
+manual:
+  - title: Getting started
+    url: /manual/getting-started/
+  - title: Sessions
+    url: /manual/sessions/
+  - title: Running a session
+    url: /manual/running/
+  - title: The pace gauge
+    url: /manual/pace-gauge/
+  - title: Pausing and ending
+    url: /manual/pausing-and-ending/
+  - title: After the run
+    url: /manual/after-the-run/
+  - title: Settings and heart rate
+    url: /manual/settings/
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

@@ -1,0 +1,36 @@
+---
+layout: default
+---
+{% assign chapters = site.manual %}
+{% for c in chapters %}
+  {% if c.url == page.url %}
+    {% assign i = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+<div class="wrap manual">
+  <nav class="manual-nav" aria-label="Manual">
+    <a class="manual-home{% if page.url == '/manual/' %} here{% endif %}" href="{{ '/manual/' | relative_url }}">Manual</a>
+    <ol>
+      {% for c in chapters %}
+      <li><a href="{{ c.url | relative_url }}"{% if c.url == page.url %} class="here" aria-current="page"{% endif %}>{{ c.title }}</a></li>
+      {% endfor %}
+    </ol>
+  </nav>
+
+  <article class="prose">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+
+    {% if i %}
+    <nav class="pager" aria-label="Chapters">
+      {% assign p = i | minus: 1 %}{% assign n = i | plus: 1 %}
+      {% if i > 0 %}{% assign prev = chapters[p] %}
+      <a class="prev" href="{{ prev.url | relative_url }}"><span>Previous</span>{{ prev.title }}</a>
+      {% endif %}
+      {% if chapters[n] %}{% assign next = chapters[n] %}
+      <a class="next" href="{{ next.url | relative_url }}"><span>Next</span>{{ next.title }}</a>
+      {% endif %}
+    </nav>
+    {% endif %}
+  </article>
+</div>
