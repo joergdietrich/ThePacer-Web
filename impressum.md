@@ -7,15 +7,15 @@ lang: de
 
 ## Angaben gemäß § 5 DDG
 
-<span class="placeholder">VORNAME NACHNAME</span><br>
-<span class="placeholder">STRASSE HAUSNUMMER</span><br>
-<span class="placeholder">PLZ ORT</span><br>
+Jörg Dietrich<br>
+Arndtstr. 10<br>
+55124 Mainz<br>
 Deutschland
 
 ## Kontakt
 
-E-Mail: <span class="placeholder">E-MAIL</span>
+E-Mail: info@thepacer.app
 
 ## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
 
-<span class="placeholder">VORNAME NACHNAME</span>, Anschrift wie oben.
+Jörg Dietrich, Anschrift wie oben.
