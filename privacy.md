@@ -65,7 +65,7 @@ If a later version of the app sends more than this list, it asks for your consen
 
 **Your install ID.** What you send is grouped under a random ID that the app makes when you agree. It is not linked to your name, your Google account or your phone's identifiers, so the data is pseudonymous: we cannot tell who you are, but everything under one ID belongs together. Settings shows the ID and lets you copy it.
 
-**When it is sent.** At the end of each run you keep, and when you open the app, over any network. Motion-sensor recordings go only on Wi-Fi while the phone is charging. A crash report is sent the same way, the next time the app opens if it crashed. An aborted run is not sent.
+**When it is sent.** Each run you keep is sent once, when it ends, over any network. If the phone is offline then, it waits and goes the next time you open the app. A crash report is sent the same way, on the next launch if the app crashed. Motion-sensor recordings wait until the phone is on Wi-Fi and charging, are sent once, and are then deleted from the phone. An aborted run is not sent.
 
 **Where it goes, and who sees it.** The data goes to a service we run on Cloudflare (Cloudflare, Inc., USA), which acts as our processor. It is stored in Cloudflare's EU data location, in an R2 bucket created in the EU jurisdiction. The request may be handled on its way by a Cloudflare server outside the EU, under Cloudflare's data processing agreement and the EU standard contractual clauses. Our service keeps no IP address and no log of your requests, and no one else receives the data.
 
