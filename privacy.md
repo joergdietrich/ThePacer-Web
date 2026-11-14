@@ -60,7 +60,7 @@ The app asks once, during setup, whether you want to share your runs, and Settin
 | Your height, if you gave it | |
 | Crash reports: what failed and where in the app, with any numbers in the message hidden | |
 
-A later version of the app will also send motion-sensor recordings of each run, uploaded only on Wi-Fi while charging. This page will say so before it does.
+A later version of the app will also send motion-sensor recordings of each run, uploaded only on Wi-Fi while charging. The app will ask for your consent before it does.
 
 **Your install ID.** What you send is grouped under a random ID that the app makes when you agree. It is not linked to your name, your Google account or your phone's identifiers, so the data is pseudonymous: we cannot tell who you are, but everything under one ID belongs together. Settings shows the ID and lets you copy it.
 
