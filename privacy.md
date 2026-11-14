@@ -9,7 +9,7 @@ This policy covers the **The Pacer** app for Android and this website, thepacer.
 
 ## Who is responsible
 
-<span class="placeholder">NAME</span>, <span class="placeholder">POSTAL ADDRESS</span>, <span class="placeholder">E-MAIL</span>. See also the [Impressum]({{ '/impressum/' | relative_url }}).
+Jörg Dietrich, Arndtstr. 10, 55124 Mainz, Germany, info@thepacer.app. See also the [Impressum]({{ '/impressum/' | relative_url }}).
 
 ## The app
 
