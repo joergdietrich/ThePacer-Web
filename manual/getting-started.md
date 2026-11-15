@@ -20,7 +20,6 @@ The first time you open the app, it asks four questions, one per page. You can c
 3. **Height.** Optional. Your height gives the beat in your very first session a better starting guess at your stride. After that the app learns your stride from your own running, so you can skip this page.
 4. **Sharing your runs.** The app asks whether to send data about how each run was measured, which helps tune the pacing. The page lists what is sent and what never is: no positions, no day or time of the run, no heart rate, nothing that says who you are. Nothing is selected for you, and **Done** waits until you choose **Share my runs** or **Don't share**. See the [privacy policy]({{ '/privacy/' | relative_url }}) for the details.
 
-If you installed the app before a page existed, it shows you that page once on its own the next time you open the app.
 
 ## Permissions
 
