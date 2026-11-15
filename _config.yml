@@ -26,6 +26,8 @@ manual:
     url: /manual/after-the-run/
   - title: Settings and heart rate
     url: /manual/settings/
+  - title: Deleting your data
+    url: /manual/deleting-your-data/
 
 exclude:
   - README.md

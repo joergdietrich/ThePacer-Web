@@ -7,16 +7,20 @@ The Pacer runs on Android phones. During each rep it plays a beat to step to, at
 
 ## First-run setup
 
-The first time you open the app, it asks three questions, one per page. You can change every answer later in [Settings]({{ '/manual/settings/' | relative_url }}).
+The first time you open the app, it asks four questions, one per page. You can change every answer later in [Settings]({{ '/manual/settings/' | relative_url }}).
 
 <figure>
   <img src="{{ '/assets/img/screens/46-setup-language.png' | relative_url }}" width="390" height="844" alt="The language page of the first-run setup.">
   <img src="{{ '/assets/img/screens/49-setup-height.png' | relative_url }}" width="390" height="844" alt="The height page of the first-run setup.">
+  <img src="{{ '/assets/img/screens/52-setup-sharing.png' | relative_url }}" width="390" height="1220" alt="The sharing page of the first-run setup, listing what is sent with each run and what never is.">
 </figure>
 
 1. **Language.** English or German. The setup switches language as soon as you choose. If your phone has no offline voice for that language, an amber line says so. Tap it to open your phone's speech settings and download the voice; without it, the spoken cues stay silent. The beat plays either way.
 2. **Units.** Metric or imperial. This sets how distances and paces are shown everywhere in the app.
 3. **Height.** Optional. Your height gives the beat in your very first session a better starting guess at your stride. After that the app learns your stride from your own running, so you can skip this page.
+4. **Sharing your runs.** The app asks whether to send data about how each run was measured, which helps tune the pacing. The page lists what is sent and what never is: no positions, no day or time of the run, no heart rate, nothing that says who you are. Nothing is selected for you, and **Done** waits until you choose **Share my runs** or **Don't share**. See the [privacy policy]({{ '/privacy/' | relative_url }}) for the details.
+
+If you installed the app before a page existed, it shows you that page once on its own the next time you open the app.
 
 ## Permissions
 

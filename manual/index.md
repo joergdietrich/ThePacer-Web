@@ -15,5 +15,6 @@ Everything else in the app supports the beat. A voice counts you down to the end
   <li><a href="{{ '/manual/pace-gauge/' | relative_url }}">The pace gauge<span>Checking your pace at a glance.</span></a></li>
   <li><a href="{{ '/manual/pausing-and-ending/' | relative_url }}">Pausing and ending<span>Pause, auto-pause, abort and finish.</span></a></li>
   <li><a href="{{ '/manual/after-the-run/' | relative_url }}">After the run<span>The summary, sharing the .fit file, history and comparing runs.</span></a></li>
-  <li><a href="{{ '/manual/settings/' | relative_url }}">Settings and heart rate<span>Language, units, height, your stride, and a chest strap.</span></a></li>
+  <li><a href="{{ '/manual/settings/' | relative_url }}">Settings and heart rate<span>Language, units, height, your stride, a chest strap and sharing your runs.</span></a></li>
+  <li><a href="{{ '/manual/deleting-your-data/' | relative_url }}">Deleting your data<span>On your phone, on our server, and after uninstalling.</span></a></li>
 </ol>

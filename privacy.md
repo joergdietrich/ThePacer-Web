@@ -2,7 +2,7 @@
 layout: page
 title: Privacy policy
 permalink: /privacy/
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 
 This policy covers the **The Pacer** app for Android and this website, thepacer.app. It describes the app as it is today.
@@ -75,7 +75,7 @@ If a later version of the app sends more than this list, it asks for your consen
 
 **Legal basis.** Your consent (Art. 6(1)(a) GDPR). You can withdraw it at any time, without affecting what was sent before.
 
-**Stopping and deleting.** Turn off *Share my runs* in Settings, and nothing more is sent: runs still waiting to go are dropped. You can choose there to delete everything already sent under your install ID, at once or later with *Delete what was sent*. If you are offline, the deletion goes out the next time the phone is online, and the app keeps your ID until it is done. If you have uninstalled the app, e-mail us your install ID and we delete everything under it.
+**Stopping and deleting.** Turn off *Share my runs* in Settings, and nothing more is sent: runs still waiting to go are dropped. You can choose there to delete everything already sent under your install ID, at once or later with *Delete what was sent*. If you are offline, the deletion goes out the next time the phone is online, and the app keeps your ID until it is done. If you have uninstalled the app, e-mail us your install ID and we delete everything under it. Keep the ID before you uninstall. Without it we cannot tell which data is yours, so it is deleted only after the 12 months. The [manual]({{ '/manual/deleting-your-data/' | relative_url }}) walks through each step.
 
 ### Other software on your phone
 
