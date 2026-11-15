@@ -2,7 +2,7 @@
 layout: page
 title: Privacy policy
 permalink: /privacy/
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 This policy covers the **The Pacer** app for Android and this website, thepacer.app. It describes the app as it is today.
@@ -41,7 +41,7 @@ Heart rate counts as health data. The app records it only from a chest strap tha
 | Foreground service, wake lock | Keeping a session, its beat and its cues running while the phone is locked. |
 | Internet | Sending your runs and crash reports, only if you agreed to share them. |
 
-The app reads the phone's motion sensors to measure your cadence. Android needs no permission for this. The readings stay on your phone; if you share your runs, the cadence measured from them is sent.
+The app reads the phone's motion sensors to measure your cadence. Android needs no permission for this. If you share your runs, recordings of these readings are sent with them; otherwise the readings stay on your phone.
 
 ### When you share a run
 
@@ -58,13 +58,14 @@ The app asks once, during setup, whether you want to share your runs, and Settin
 | The app's version, and your phone's maker, model, Android version and battery | Your heart rate |
 | The week of each run | Your name, e-mail, or anything else that says who you are |
 | Your height, if you gave it | |
+| Motion-sensor recordings of each run | |
 | Crash reports: what failed and where in the app, with any numbers in the message hidden | |
 
-A later version of the app will also send motion-sensor recordings of each run, uploaded only on Wi-Fi while charging. This page will say so before it does.
+If a later version of the app sends more than this list, it asks for your consent again before it does.
 
 **Your install ID.** What you send is grouped under a random ID that the app makes when you agree. It is not linked to your name, your Google account or your phone's identifiers, so the data is pseudonymous: we cannot tell who you are, but everything under one ID belongs together. Settings shows the ID and lets you copy it.
 
-**When it is sent.** At the end of each run you keep, and when you open the app, over any network. A crash report is sent the same way, the next time the app opens if it crashed. An aborted run is not sent.
+**When it is sent.** Each run you keep is sent once, when it ends, over any network. If the phone is offline then, it waits and goes the next time you open the app. A crash report is sent the same way, on the next launch if the app crashed. Motion-sensor recordings wait until the phone is on Wi-Fi and charging, are sent once, and are then deleted from the phone. An aborted run is not sent.
 
 **Where it goes, and who sees it.** The data goes to a service we run on Cloudflare (Cloudflare, Inc., USA), which acts as our processor. It is stored in Cloudflare's EU data location, in an R2 bucket created in the EU jurisdiction. The request may be handled on its way by a Cloudflare server outside the EU, under Cloudflare's data processing agreement and the EU standard contractual clauses. Our service keeps no IP address and no log of your requests, and no one else receives the data.
 
