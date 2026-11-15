@@ -37,3 +37,15 @@ The Pacer records heart rate from a Bluetooth chest strap. Any strap that sends 
 From then on the app connects to that strap for every session. The strap line in Settings shows **Connected**, **Connecting** or **Not in reach**.
 
 Heart rate is **recorded, not shown, during a run**. Your eyes belong on the pace. You see it afterwards in the summary, per rep and for the whole run, and it goes into the .fit file.
+
+## Sharing your runs
+
+<figure>
+  <img src="{{ '/assets/img/screens/59-settings-sharing.png' | relative_url }}" width="390" height="844" alt="Settings with Share my runs switched on and the install ID shown below it.">
+</figure>
+
+The last section holds the **Share my runs** switch, the same choice as the last page of setup. **What is sent** shows that page's lists again. The switch is the only place to change your choice.
+
+While you share, the section shows your **install ID**, the random ID everything you send is grouped under, with a button to copy it. Copy it and keep it somewhere safe. You need it to have your data deleted after you uninstall the app.
+
+Turning the switch off asks first whether to keep or delete what was already sent. [Deleting your data]({{ '/manual/deleting-your-data/' | relative_url }}) walks through each choice.
