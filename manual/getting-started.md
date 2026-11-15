@@ -28,8 +28,7 @@ The app asks for permissions when you open a session's **Start training** screen
 - **Location** gives distance and pace. You can refuse it and still run, for example on a treadmill; distance and pace then stay blank.
 - **Notifications**, on Android 13 and later, let the app show its notification while a session runs. Android uses that notification to keep a session alive with the screen off.
 - **Nearby devices** (Bluetooth) is asked for only when you pick a heart rate strap.
-
-The app does not ask for activity recognition. It counts your steps with the motion sensor, which needs no permission.
+- 
 
 ## On a run
 
