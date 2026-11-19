@@ -3,7 +3,7 @@ layout: manual
 title: Deleting your data
 ---
 
-The Pacer keeps your sessions and runs on your phone. If you agreed to share your runs, some data about them is also on our server. This chapter says how to delete each. The [privacy policy]({{ '/privacy/' | relative_url }}) lists exactly what is stored and sent.
+The Pacer keeps your sessions and runs on your phone. If you turned on *Share my runs*, some data about them is also on our server. This chapter says how to delete each. The [privacy policy]({{ '/privacy/' | relative_url }}) lists exactly what is stored and sent.
 
 ## On your phone
 
@@ -12,11 +12,11 @@ The Pacer keeps your sessions and runs on your phone. If you agreed to share you
 - **Your stride.** In Settings, **Reset my stride** clears what the app learned about it.
 - **Everything.** Uninstalling the app deletes everything it stored on your phone.
 
-A .fit file you shared through Android's share sheet is a copy that now lives with the app or service you sent it to. Delete it there.
+A .fit file you sent with **Share .fit file** is a copy that now lives with the app or service you sent it to. Delete it there.
 
-## What you shared
+## On our server
 
-If you share your runs, everything sent is grouped under your **install ID**, a random ID the app made when you agreed. It is not linked to your name, your Google account or your phone. Settings shows it under **Share my runs**, with a button to copy it.
+If you turned on *Share my runs*, everything sent is grouped under your **install ID**, a random ID the app made when you agreed. It is not linked to your name, your Google account or your phone. Settings shows it under **Share my runs**, with a button to copy it.
 
 Everything sent is deleted from the server automatically 12 months after it arrived. To delete it sooner:
 

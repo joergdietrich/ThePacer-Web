@@ -24,7 +24,7 @@ Tap **Close** to go back to the Start screen. If a session ended with the phone 
 
 **Share .fit file**, at the bottom of the summary, opens your phone's share sheet. Send the file to Strava, Garmin Connect, a cloud drive, an e-mail, or any app that takes .fit files. Each phase becomes a lap, so every rep shows up as its own lap there.
 
-The Pacer has no account and uploads nothing by itself. Sharing is the only way a run leaves your phone.
+The file goes to the app you pick, not to us. The Pacer has no account, and this is the only way a run's full record leaves your phone. *Share my runs* in Settings is a different thing: it sends us data about how runs were measured, without positions (see [Settings]({{ '/manual/settings/' | relative_url }}#sharing-your-runs)).
 
 ## History
 
