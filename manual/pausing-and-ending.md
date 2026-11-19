@@ -10,13 +10,13 @@ While a session runs, two buttons sit at the top right of every training screen:
   <img src="{{ '/assets/img/screens/17-abort-confirm.png' | relative_url }}" width="390" height="844" alt="The dialog that confirms an abort.">
 </figure>
 
-## Pause
-
-Tap Pause and time and distance stop counting. The phase stays where it is, and the spoken cues go quiet. A **Paused** chip appears, with **Resume** and **Abort** at the bottom of the screen. Resume carries on where you left off. Paused time never counts towards a phase or an average pace.
-
 ## Auto-pause
 
 When you stop moving — at a traffic light, or to tie a shoe — the session pauses by itself. The line under the title reads **Auto-paused · resumes when you move**, and it resumes when you set off again.
+
+## Pause
+
+Tap Pause and time and distance stop counting. The phase stays where it is, and the spoken cues go quiet. A **Paused** chip appears, with **Resume** and **Abort** at the bottom of the screen. Resume carries on where you left off. Paused time never counts towards a phase or an average pace.
 
 After you pause by hand, the session stays paused until you tap Resume, even if you walk a few steps.
 
