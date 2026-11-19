@@ -36,7 +36,7 @@ The Pacer records heart rate from a Bluetooth chest strap. Any strap that sends 
 
 From then on the app connects to that strap for every session. The strap line in Settings shows **Connected**, **Connecting** or **Not in reach**.
 
-Heart rate is **recorded, not shown, during a run**. Your eyes belong on the pace. You see it afterwards in the summary, per rep and for the whole run, and it goes into the .fit file.
+Heart rate is **recorded, not shown, during a run**. Your eyes belong on the pace. You see it afterwards in the summary, per rep and for the whole run, and in the comparison of a session's runs. It also goes into the .fit file.
 
 ## Sharing your runs
 

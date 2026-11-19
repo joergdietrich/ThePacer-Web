@@ -11,7 +11,7 @@ When a session ends, its summary opens.
   <img src="{{ '/assets/img/screens/35-finish-summary.png' | relative_url }}" width="390" height="1012" alt="The summary after a session.">
 </figure>
 
-- **The overall card** shows distance, moving time and average pace. Moving time leaves out pauses. If you paused, a line below gives the total time and the paused time too.
+- **The overall card** shows distance, moving time and average pace. Moving time leaves out pauses. If you paused, a line below gives the total time and the paused time too. A run of an hour or more shows its time with hours, as 1:12:45.
 - **Heart rate**, if a chest strap was connected, adds your average and maximum to the card, and each rep's average beside its target.
 - **Reps** lists every rep, and every recovery that had a target pace, in the order you ran them. Each row shows the target, your average and a chip in the gauge's colours and words. The rating uses the rep's average, not the moment-to-moment pace the gauge showed.
 - **"5 of 6 on pace"** heads the list. If a rep came out off pace while you kept to the beat, the beat may still be learning your stride; it adjusts as you run.
@@ -32,7 +32,7 @@ The Pacer has no account and uploads nothing by itself. Sharing is the only way 
 
 <figure>
   <img src="{{ '/assets/img/screens/39-history.png' | relative_url }}" width="390" height="844" alt="The history of runs.">
-  <img src="{{ '/assets/img/screens/44-comparison.png' | relative_url }}" width="390" height="844" alt="One session compared across several runs.">
+  <img src="{{ '/assets/img/screens/44-comparison.png' | relative_url }}" width="390" height="879" alt="One session compared across several runs, with heart rate under each rep's pace.">
 </figure>
 
 Runs are kept until you delete them. To delete one, tap the bin on its row and confirm; its recording and .fit file go with it. **Undo** brings it back.
@@ -40,5 +40,9 @@ Runs are kept until you delete them. To delete one, tap the bin on its row and c
 ## Comparing runs
 
 When you have run the same session at least twice, a run's summary offers **Compare**. It shows the last five runs of that session side by side: one row per rep, one column per run, each cell your average pace for that rep in its band colour. A dash marks a rep that run never reached, or ran without GPS.
+
+If a chest strap was connected, each cell also shows that rep's average heart rate under the pace. That is what the screen is for: the same pace at a lower heart rate, week by week. A run without a strap shows pace alone. A dash in place of the heart rate means the strap caught too little of that rep to give an average.
+
+Below the table, **These runs** lists each run with its distance, time, average pace and average heart rate. On a narrow phone, a long run's line leaves out the heart rate so the other numbers stay whole.
 
 Only runs of the same plan are compared. If you edited the session between runs, so that its reps no longer match, the screen leaves those runs out and says how many.
