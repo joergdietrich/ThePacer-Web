@@ -2,7 +2,7 @@
 layout: page
 title: Privacy policy
 permalink: /privacy/
-updated: 2026-11-15
+updated: 2026-11-19
 ---
 
 This policy covers the **The Pacer** app for Android and this website, thepacer.app. It describes the app as it is today.
@@ -15,7 +15,10 @@ Jörg Dietrich, Arndtstr. 10, 55124 Mainz, Germany, info@thepacer.app. See also 
 
 ### In short
 
-The Pacer keeps your runs on your phone. It has no account, no analytics and no advertising. Only if you agree does it send us data about how each run was measured and reports of what failed in the app, and never where you ran, when, your heart rate or who you are. You can stop and have it deleted at any time. A run's full record leaves your phone only when you share it yourself.
+The Pacer keeps your runs on your phone. It has no account, no analytics and no advertising. Data leaves your phone in only two ways, and each is your choice:
+
+- **Share .fit file** sends one run's full record to an app you pick, such as Strava or Garmin Connect. It goes to that app, never to us.
+- **Share my runs** sends us data about how each run was measured, and reports of what failed in the app. It never includes where you ran, when, your heart rate or who you are. It is off until you turn it on, and you can turn it off and have the data deleted at any time.
 
 ### What the app stores on your phone
 
@@ -39,17 +42,19 @@ Heart rate counts as health data. The app records it only from a chest strap tha
 | Notifications | The notification Android shows while a session runs, which keeps it alive with the screen off. |
 | Nearby devices (Bluetooth) | Connecting to your heart rate strap. Asked only when you choose a strap. |
 | Foreground service, wake lock | Keeping a session, its beat and its cues running while the phone is locked. |
-| Internet | Sending your runs and crash reports, only if you agreed to share them. |
+| Internet | Sending measurement data and crash reports to us, only if you turned on *Share my runs*. |
 
-The app reads the phone's motion sensors to measure your cadence. Android needs no permission for this. If you share your runs, recordings of these readings are sent with them; otherwise the readings stay on your phone.
+The app reads the phone's motion sensors to measure your cadence. Android needs no permission for this. With *Share my runs* on, recordings of these readings are sent to us; otherwise they stay on your phone.
 
-### When you share a run
+### Share .fit file
 
-**Share .fit file** hands the file to the app you choose in Android's share sheet: Strava, Garmin Connect, e-mail, a cloud drive and so on. The file contains your positions, times, distances, speeds and, with a strap, heart rate. Once shared, the file is handled under that service's privacy policy, not ours.
+This sends a run to **another app, not to us**. **Share .fit file**, on a run's summary, hands the file to the app you choose in Android's share sheet: Strava, Garmin Connect, e-mail, a cloud drive and so on. The file contains your positions, times, distances, speeds and, with a strap, heart rate. We never receive it. Once sent, the file is handled under that service's privacy policy, not ours.
 
-### If you share your runs
+### Share my runs
 
-The app asks once, during setup, whether you want to share your runs, and Settings holds the same switch afterwards. Nothing is selected for you, and nothing is sent until you agree. We use what you share to tune how the app measures pace and cadence, on phones and runners beyond our own.
+This sends **measurement data to us**, so we can tune how the app measures pace and cadence on phones and runners beyond our own. It is separate from *Share .fit file*: it sends no .fit file, and none of your positions.
+
+The app asks once, during setup, whether to turn on *Share my runs*, and Settings holds the same switch afterwards. Nothing is selected for you, and nothing is sent until you turn it on.
 
 | Sent with each run | Never sent |
 |---|---|
@@ -83,7 +88,7 @@ The spoken cues use your phone's own text-to-speech engine, usually Google's. Th
 
 ### Deleting your data
 
-Delete a run in the history, or a session in the session list. Uninstalling the app deletes everything it stored on your phone. What you shared is deleted as described under *If you share your runs*, or 12 months after it was sent.
+Delete a run in the history, or a session in the session list. Uninstalling the app deletes everything it stored on your phone. What *Share my runs* sent us is deleted as described under *Share my runs*, or 12 months after it was sent. A .fit file you sent to another app is deleted there.
 
 ## This website
 
