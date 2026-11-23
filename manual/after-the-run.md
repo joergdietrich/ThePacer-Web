@@ -32,7 +32,7 @@ The file goes to the app you pick, not to us. The Pacer has no account, and this
 
 <figure>
   <img src="{{ '/assets/img/screens/39-history.png' | relative_url }}" width="390" height="844" alt="The history of runs.">
-  <img src="{{ '/assets/img/screens/44-comparison.png' | relative_url }}" width="390" height="844" alt="One session compared across several runs.">
+  <img src="{{ '/assets/img/screens/44-comparison.png' | relative_url }}" width="390" height="879" alt="One session compared across several runs, with heart rate under each rep's pace.">
 </figure>
 
 Runs are kept until you delete them. To delete one, tap the bin on its row and confirm; its recording and .fit file go with it. **Undo** brings it back.
@@ -40,5 +40,9 @@ Runs are kept until you delete them. To delete one, tap the bin on its row and c
 ## Comparing runs
 
 When you have run the same session at least twice, a run's summary offers **Compare**. It shows the last five runs of that session side by side: one row per rep, one column per run, each cell your average pace for that rep in its band colour. A dash marks a rep that run never reached, or ran without GPS.
+
+If a chest strap was connected, each cell also shows that rep's average heart rate under the pace. That is what the screen is for: the same pace at a lower heart rate, week by week. A run without a strap shows pace alone. A dash in place of the heart rate means the strap caught too little of that rep to give an average.
+
+Below the table, **These runs** lists each run with its distance, time, average pace and average heart rate.
 
 Only runs of the same plan are compared. If you edited the session between runs, so that its reps no longer match, the screen leaves those runs out and says how many.
